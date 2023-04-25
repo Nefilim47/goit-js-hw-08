@@ -23,7 +23,6 @@ function onFormSubmit(e) {
       return alert('Введите данные');
     }  
     e.currentTarget.reset();
-    // state = {};
   }
 
   const onPageReload = () => {
