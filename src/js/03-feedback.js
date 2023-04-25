@@ -23,7 +23,7 @@ function onFormSubmit(e) {
       return alert('Введите данные');
     }  
     e.currentTarget.reset();
-    state = {};
+    // state = {};
   }
 
   const onPageReload = () => {
